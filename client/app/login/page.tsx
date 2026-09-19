@@ -20,7 +20,7 @@ import {
 import { Spinner } from "@/components/ui/spinner";
 import { cn } from "@/lib/utils";
 import { getGithubLoginUrl } from '@/lib/api';
-import { useCurrentUser } from "@/hooks/use-auth";
+import { useCurrentUser } from '@/hooks/use-auth';
 
 function LoginLoading(){
     return (
